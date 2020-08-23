@@ -8,6 +8,8 @@ Function.prototype.bind = function(context){
 }
 
 
+
+
 function bind(fn, context){
 	return function(){
 		fn.call(context);
